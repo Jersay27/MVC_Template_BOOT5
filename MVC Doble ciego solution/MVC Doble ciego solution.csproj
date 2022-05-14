@@ -120,7 +120,9 @@
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\DocumentsController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\ProfileController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -143,6 +145,36 @@
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\bootstrap.rtl.css" />
     <Content Include="Content\bootstrap.rtl.min.css" />
+    <Content Include="Content\css\bootstrap.min.css" />
+    <Content Include="Content\fonts\fa-brands-400.svg" />
+    <Content Include="Content\fonts\fa-regular-400.svg" />
+    <Content Include="Content\fonts\fa-solid-900.svg" />
+    <Content Include="Content\fonts\fontawesome-all.min.css" />
+    <Content Include="Content\ads.txt" />
+    <Content Include="Content\img\avatars\avatar1.jpeg" />
+    <Content Include="Content\img\avatars\avatar2.jpeg" />
+    <Content Include="Content\img\avatars\avatar3.jpeg" />
+    <Content Include="Content\img\avatars\avatar4.jpeg" />
+    <Content Include="Content\img\avatars\avatar5.jpeg" />
+    <Content Include="Content\img\default-avatars\default1.jpg" />
+    <Content Include="Content\img\default-avatars\default2.png" />
+    <Content Include="Content\img\default-avatars\default3.png" />
+    <Content Include="Content\img\default-avatars\default4.png" />
+    <Content Include="Content\img\default-avatars\default5.png" />
+    <Content Include="Content\img\default-avatars\default6.png" />
+    <Content Include="Content\img\default-avatars\default7.png" />
+    <Content Include="Content\img\dogs\image1.jpeg" />
+    <Content Include="Content\img\dogs\image2.jpeg" />
+    <Content Include="Content\img\dogs\image3.jpeg" />
+    <Content Include="Content\img\elements\graph.jpg" />
+    <Content Include="Content\img\icons\icon-128.png" />
+    <Content Include="Content\img\icons\icon-16.png" />
+    <Content Include="Content\img\icons\icon-24.png" />
+    <Content Include="Content\img\icons\icon-256.png" />
+    <Content Include="Content\img\icons\icon-32.png" />
+    <Content Include="Content\img\icons\icon-512.png" />
+    <Content Include="Content\img\icons\icon-64.png" />
+    <Content Include="Content\robots.txt" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
@@ -174,7 +206,22 @@
     <Content Include="Content\bootstrap-grid.rtl.css.map" />
     <Content Include="Content\bootstrap-grid.min.css.map" />
     <Content Include="Content\bootstrap-grid.css.map" />
+    <Content Include="Content\fonts\fa-brands-400.eot" />
+    <Content Include="Content\fonts\fa-brands-400.ttf" />
+    <Content Include="Content\fonts\fa-brands-400.woff" />
+    <Content Include="Content\fonts\fa-brands-400.woff2" />
+    <Content Include="Content\fonts\fa-regular-400.eot" />
+    <Content Include="Content\fonts\fa-regular-400.ttf" />
+    <Content Include="Content\fonts\fa-regular-400.woff" />
+    <Content Include="Content\fonts\fa-regular-400.woff2" />
+    <Content Include="Content\fonts\fa-solid-900.eot" />
+    <Content Include="Content\fonts\fa-solid-900.ttf" />
+    <Content Include="Content\fonts\fa-solid-900.woff" />
+    <Content Include="Content\fonts\fa-solid-900.woff2" />
+    <Content Include="Content\manifest.json" />
     <None Include="Scripts\jquery-3.6.0.intellisense.js" />
+    <Content Include="Scripts\bs-init.js" />
+    <Content Include="Scripts\chart.min.js" />
     <Content Include="Scripts\jquery-3.6.0.js" />
     <Content Include="Scripts\jquery-3.6.0.min.js" />
     <Content Include="Scripts\jquery-3.6.0.slim.js" />
@@ -187,6 +234,7 @@
     <Content Include="Scripts\jquery.validate.unobtrusive.js" />
     <Content Include="Scripts\jquery.validate.unobtrusive.min.js" />
     <Content Include="Scripts\modernizr-2.8.3.js" />
+    <Content Include="Scripts\theme.js" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -198,9 +246,12 @@
     <Content Include="Views\_ViewStart.cshtml" />
     <Content Include="Views\Shared\Error.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
-    <Content Include="Views\Home\About.cshtml" />
-    <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="Views\Profile\LogIn.cshtml" />
+    <Content Include="Views\Profile\Register.cshtml" />
+    <Content Include="Views\Profile\ForgotPassword.cshtml" />
+    <Content Include="Views\Profile\Profile.cshtml" />
+    <Content Include="Views\Documents\Documents.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

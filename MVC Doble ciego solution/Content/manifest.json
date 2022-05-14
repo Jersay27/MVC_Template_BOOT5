@@ -1,0 +1,1 @@
+{"short_name":"RDC","name":"Revison Doble Ciego","icons":[{"src":"/assets/img/icons/icon-256.png","type":"image/png","sizes":"256x256","purpose":"any maskable"},{"src":"/assets/img/icons/icon-512.png","type":"image/png","sizes":"512x512","purpose":"any maskable"}],"start_url":"login.html","display":"minimal-ui","orientation":"portrait"}
